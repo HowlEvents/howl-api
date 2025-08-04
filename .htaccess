@@ -1,0 +1,7 @@
+Options -Indexes
+<Files ".htaccess">
+    Require all denied
+</Files>
+<FilesMatch "\.(pem|key|crt|env|bak)$">
+    Require all denied
+</FilesMatch>
